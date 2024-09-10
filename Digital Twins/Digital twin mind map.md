@@ -1,16 +1,21 @@
 https://mermaid.js.org/syntax/mindmap.html
 
 ```mermaid
+%%{
+  init: {
+    'theme':'forest'
+  }
+}%%
 
 mindmap
   root((Digital Twin))
-    id)"*Purpose/Goals*"(
+    id1)"`**Purpose/Goals**`"(
       What? Discover problems/issues
       Why? Understand why they appear
       What-if? Analyze what may happen
       What-will? Predict future problems/issues
       How? Find solutions/prescriptions for existing/future problems/issues
-    id)"*Technologies*"(
+    id2)"`**Technologies**`"(
       Digital Transformation
       IoT
         Sensors
@@ -60,7 +65,7 @@ mindmap
           Zero Trust Architecture
         Regulatory/Legal Compliance
           PCI DSS, GDPR, SOX, HIPAA
-	  id)"*Portfolio/Project/Product Management*"(
+    id3)"**Portfolio/Project/Product Management**"(
 	    Enterprise Architecture
 	      TOGAF, ITIL
 	      Providing a high-level architecture governance
@@ -74,7 +79,7 @@ mindmap
 	        Identifying the right problems and appropriate solutions
 	      The SAFe Framework
 	      Hypothesis-Driven Development
-    id)"*Architecture considerations/docs*"(
+    id4)"**Architecture considerations/docs**"(
       Architecturally significant Functional requirements
       Logical Components
         DDD, Core Domains, EventStorming
@@ -82,7 +87,7 @@ mindmap
       Arch style/Physical architecture
       Arch Decisions
         ADRs
-    id)"*Types of DT*"(
+    id5)"**Types of DT**"(
       Digital Model
       Digital Shadow
       Network DT
