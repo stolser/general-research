@@ -2,7 +2,8 @@
 
 [C4-PlantUML System context docs](https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/README.md#system-context--system-landscape-diagrams)
 
-![dt-conceptual-arch](https://github.com/user-attachments/assets/8bdc65f6-3bab-403a-aa1b-30ca230015af)
+![dt-conceptual-arch](https://github.com/user-attachments/assets/4cf41ad9-cd8e-45a7-bd88-fa7b7716c40e)
+
 
 ```
 @startuml
