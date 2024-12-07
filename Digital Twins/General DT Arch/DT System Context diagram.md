@@ -7,7 +7,7 @@
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 
 System_Boundary(cps, "Cyber-Physical System") {
-  System(digitalTwin, "Digital Twin", "A digital representation of a real-world physical entity that simulates its different aspects (state, behavior, configuration, operations)")
+  System(digitalTwin, "== Digital Twin ==", "A digital representation of a real-world physical entity that simulates its different aspects (state, behavior, configuration, operations)")
   System(physicalTwin, "Physical Twin", "A real-world physical entity (object, asset, process, system)")
 }
 
